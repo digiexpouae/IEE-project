@@ -1,7 +1,7 @@
 'use client'
 import Image from "next/image";
 import im1 from '../../../../public/assets/section4/1.JPG'
-import im2 from '../../../../public/assets/section4/2.jpg'
+import im2 from '../../../../public/assets/section4/2.JPG'
 export default function PrayerSection() {
   return (
     <section className="relative w-full bg-zinc-100 bg-[url('/pattern.png')] bg-repeat py-12">
