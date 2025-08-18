@@ -66,7 +66,7 @@ const Header = () => {
       </div>
 
       {/* Main Header */}
-      <div className="md:container relative lg:absolute lg:-bottom-10 left-0 right-0 mx-auto md:px-4 py-3 flex justify-between xl:justify-center items-center w-full md:w-[70%] bg-[#A81F19] md:bg-transparent">
+      <div className="md:container relative lg:absolute lg:-bottom-10 left-0 right-0 mx-auto md:px-4 py-3 flex justify-between xl:justify-center items-center w-full lg:w-[80%] xl:w-[70%]  bg-[#A81F19] md:bg-transparent">
         {/* Logo - White background only on desktop */}
         <div className="flex-shrink-0 lg:bg-white md:rounded-l-full py-2 px-4 md:px-0">
           <Link href="/">
@@ -82,9 +82,9 @@ const Header = () => {
         </div>
 
         {/* Desktop Navigation */}
-        <nav className="hidden lg:flex items-center space-x-8 w-full py-2 bg-[#0A5B21] px-6 justify-between rounded-r-full">
+        <nav className="hidden lg:flex items-center  xl:space-x-8 w-full py-2 bg-[#0A5B21] px-6 justify-between rounded-r-full">
        
-       <div className="md:flex items-center space-x-6 py-2 px-4  text-xs md:text-sm whitespace-nowrap">  <Link href="/" className="text-white hover:text-gray-200 font-medium transition">Home</Link>
+       <div className="md:flex items-center space-x-6 py-2 px-4  text-xs xl:text-sm  whitespace-nowrap">  <Link href="/" className="text-white hover:text-gray-200 font-medium transition">Home</Link>
           <Link href="/about" className="text-white hover:text-gray-200 font-medium transition">About Us</Link>
           <Link href="/services" className="text-white hover:text-gray-200 font-medium transition">What we do</Link>
           <Link href="/events" className="text-white hover:text-gray-200 font-medium transition">Events</Link>
@@ -96,7 +96,8 @@ const Header = () => {
           <Link 
             href="/donate" 
             className="bg-[#DBAC42] text-black hover:bg-gray-100 px-6 py-2 rounded-md font-medium transition-colors"
-          >
+         style={{whiteSpace:'nowrap'}}
+         >
             Donate Now
           </Link>
         </nav>
@@ -212,7 +213,7 @@ const Header = () => {
             <div className="pt-4 mt-4 border-t border-gray-200">
               <Link 
                 href="/donate" 
-                className="block w-full  text-center bg-[#DBAC42] text-black hover:bg-[#c99b2f] lg:px-4 lg:py-3 rounded-md font-medium transition-colors"
+                className="block w-full  text-center bg-[#DBAC42] text-black hover:bg-[#c99b2f] lg:px-4 py-3 rounded-md font-medium transition-colors"
                 onClick={toggleMenu}
               >
                 Donate Now
