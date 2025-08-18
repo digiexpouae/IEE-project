@@ -63,7 +63,7 @@ export default function AboutUs() {
           </ul>
 
           {/* Button */}
-          <button className="mt-6 px-6 py-3 bg-yellow-500 hover:bg-yellow-600 text-white rounded shadow-md transition">
+          <button className="mt-6 px-6 py-3 bg-[#DBAC42] hover:bg-yellow-600 text-white rounded shadow-md transition">
             Discover more
           </button>
         </div>
