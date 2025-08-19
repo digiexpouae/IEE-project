@@ -23,19 +23,19 @@ export default function Footer() {
               href="#"
               className="w-9 h-9 bg-green-800 rounded-full flex items-center justify-center text-white hover:bg-green-900 transition-colors"
             >
-              📘
+                <Image width={14} height={14} src='/assets/facebook.svg' alt="" />
             </Link>
             <Link
               href="#"
               className="w-9 h-9 bg-green-800 rounded-full flex items-center justify-center text-white hover:bg-green-900 transition-colors"
             >
-              🐦
+                <Image width={16} height={16} src='/assets/twitter.svg' alt="" />
             </Link>
             <Link
               href="#"
               className="w-9 h-9 bg-green-800 rounded-full flex items-center justify-center text-white hover:bg-green-900 transition-colors"
             >
-              💼
+                <Image  width={16} height={16} src='/assets/youtube.svg' alt="" />
             </Link>
           </div>
         </div>
