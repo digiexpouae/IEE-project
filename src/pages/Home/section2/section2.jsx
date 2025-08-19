@@ -15,13 +15,13 @@ export default function WhatWeDo() {
       <div className="max-w-6xl mx-auto px-4 relative z-10">
         {/* Heading */}
         <div className="text-center mb-12">
-          <p className="text-[#0A5B21] font-medium">Guaranteed Success</p>
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2">
+          <span className="text-[#0A5B21] font-medium">Guaranteed Success</span>
+          <h2 className="text-3xl md:text-4xl font-medium text-gray-900 mt-2">
             What We Do
           </h2>
           <p className="text-gray-600  text-xs mt-4 max-w-2xl mx-auto">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
-            luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            luctus nec ullamcorper <br /> mattis, pulvinar dapibus leo.
           </p>
         </div>
 
