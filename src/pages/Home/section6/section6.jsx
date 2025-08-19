@@ -6,21 +6,21 @@ import proj3 from "../../../../public/assets/section6/3.JPG";
 
 const Projects = () => {
   return (
-    <section className="w-full bg-gray-50 py-16 relative">
+    <section className="w-full bg-zinc-100 py-16 relative">
                <div className="absolute inset-0 z-[0] bg-cover bg-center bg-no-repeat"
        style={{ backgroundImage: "url('/assets/section2/background.png')" ,backgroundSize:'cover',backgroundPosition:'center'}}>
   </div>
-      <div className="max-w-7xl mx-auto px-6 text-center relative z-10">
+      <div className="max-w-7xl flex flex-col items-center justify-center mx-auto px-6 text-center relative z-10">
         
         {/* Heading */}
         <p className="text-green-600 font-medium">Our community initiatives</p>
-        <h2 className="text-3xl md:text-4xl font-bold mt-2">Explore Our Projects</h2>
+        <h2 className="text-3xl md:text-4xl font-medium mt-2">Explore Our Projects</h2>
         <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
         </p>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-[80%] mt-12">
           
           {/* Card 1 */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -60,6 +60,7 @@ const Projects = () => {
                 <div className="bg-[#DBAC42] h-2 rounded-r-full w-[30%]"></div>
    
               </div>
+
               <div className="flex items-center justify-between mt-4 text-sm">
                 <span className="flex items-center gap-2 text-gray-600">
                   <i className="fas fa-clock"></i> 1 Day Left

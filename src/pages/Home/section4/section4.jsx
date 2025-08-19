@@ -4,30 +4,34 @@ import im1 from '../../../../public/assets/section4/1.JPG'
 import im2 from '../../../../public/assets/section4/2.JPG'
 export default function PrayerSection() {
   return (
-    <section className="relative w-full h-auto md:flex items-center justify-center bg-zinc-100 bg-[url('/pattern.png')] bg-repeat py-12">
+    <section className="relative w-full h-auto  md:flex items-center justify-center bg-zinc-100 bg-[url('/pattern.png')] bg-repeat py-16">
           <div className="absolute inset-0 z-[0] bg-cover bg-center bg-no-repeat"
        style={{ backgroundImage: "url('/assets/section2/background.png')" ,backgroundSize:'cover',backgroundPosition:'center'}}>
   </div>
 
-      <div className="container mx-auto px-6 lg:px-16">
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 items-start">
+      <div className="container mx-auto px-6 lg:px-16 w-full flex items-center justify-center">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 items-start w-[85%]">
           
           {/* Card 1 */}
-          <div className="relative group rounded-lg overflow-hidden shadow-md">
-            <Image
-              src={im1}
-              alt="Ramadan"
-              width={400}
-              height={500}
-              className="w-full h-62 md:h-82 object-cover transform group-hover:scale-105 transition"
-            />
-            <div className="absolute inset-0 bg-opacity-40 flex flex-col justify-center items-center text-center text-white">
-              <h3 className="text-2xl font-bold">Ramadan</h3>
-              <button className="mt-4 px-4 py-2 bg-yellow-500 hover:bg-yellow-600 text-sm font-medium rounded transition">
-                → Discover More
-              </button>
-            </div>
-          </div>
+          <div className="relative group flex-col rounded-lg overflow-hidden shadow-md">
+  <Image
+    src={im1}
+    alt="Ramadan"
+    width={400}
+    height={500}
+    className="w-full h-62 md:h-82 object-cover object-top transform group-hover:scale-105 transition"
+  />
+  
+  {/* Overlay */}
+  <div className="absolute inset-0 bg-black opacity-[0.4] z-10 flex flex-col justify-center items-center text-center text-white"></div>
+        <div className="absolute flex flex-col items-center justify-center inset-0 z-20">
+<h3 className="text-2xl  text-white font-bold">Ramadan</h3>
+    <button className="relative z-20 mt-4 px-4 text-white py-2 bg-yellow-500 hover:bg-yellow-600 text-sm font-medium rounded transition">
+      → Discover More
+    </button>
+    </div>
+</div>
+
 
           {/* Card 2 */}
           <div className="relative group rounded-lg overflow-hidden shadow-md">
@@ -38,7 +42,8 @@ export default function PrayerSection() {
               height={500}
               className="w-full h-62 md:h-82 object-cover transform group-hover:scale-105 transition"
             />
-            <div className="absolute inset-0 bg-opacity-40 flex flex-col justify-center items-center text-center text-white">
+  <div className="absolute inset-0 bg-black opacity-[0.4] z-10 flex flex-col justify-center items-center text-center text-white"></div>
+        <div className="absolute flex flex-col text-white items-center justify-center inset-0 z-20">
               <h3 className="text-2xl font-bold">Reading Quran</h3>
               <button className="mt-4 px-4 py-2 bg-yellow-500 hover:bg-yellow-600 text-sm font-medium rounded transition">
                 → Discover More

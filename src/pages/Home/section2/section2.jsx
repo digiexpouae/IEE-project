@@ -15,18 +15,18 @@ export default function WhatWeDo() {
       <div className="max-w-6xl mx-auto px-4 relative z-10">
         {/* Heading */}
         <div className="text-center mb-12">
-          <p className="text-green-700 font-medium">Guaranteed Success</p>
+          <p className="text-[#0A5B21] font-medium">Guaranteed Success</p>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2">
             What We Do
           </h2>
-          <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
+          <p className="text-gray-600  text-xs mt-4 max-w-2xl mx-auto">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
             luctus nec ullamcorper mattis, pulvinar dapibus leo.
           </p>
         </div>
 
         {/* Cards Grid */}
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 w-[85%] mx-auto">
           {/* Card 1 */}
           <div className="bg-white border-1 border-3 border-[#EFEDE4]  py-6  px-4 shadow-md  overflow-hidden hover:shadow-lg transition">
             <Image
@@ -37,12 +37,12 @@ export default function WhatWeDo() {
               className="w-full h-48 object-contain"
             />
             <div className="p-6">
-              <h3 className="text-xl font-semibold text-gray-800">Daily Prayers</h3>
-              <p className="text-gray-600 mt-2 text-sm">
+              <h3 className="text-xl font-semibold text-[#0A5B21]">Daily Prayers</h3>
+              <p className="text-gray-600 mt-2 text-xs">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
                 luctus nec ullamcorper mattis, pulvinar dapibus leo.
               </p>
-              <button className="mt-4 bg-[#DBAC42] text-gray-900 px-5 py-2 rounded-md font-medium hover:bg-yellow-500 transition">
+              <button className="mt-4 bg-[#DBAC42] text-gray-900 px-5 py-2 rounded-md font-medium hover:bg-yellow-500 transition text-xs">
                 → Discover More
               </button>
             </div>
@@ -58,19 +58,19 @@ export default function WhatWeDo() {
               className="w-full h-48  rounded-lg  object-contain"
             />
             <div className="p-6">
-              <h3 className="text-xl font-semibold text-gray-800">Family Counseling</h3>
-              <p className="text-gray-600 mt-2 text-sm">
+              <h3 className="text-xl font-semibold text-[#0A5B21]">Family Counseling</h3>
+              <p className="text-gray-600 mt-2 text-xs">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
                 luctus nec ullamcorper mattis, pulvinar dapibus leo.
               </p>
-              <button className="mt-4 bg-[#DBAC42] text-gray-900 px-5 py-2 rounded-md font-medium hover:bg-yellow-500 transition">
+              <button className="mt-4 bg-[#DBAC42] text-gray-900 px-5 py-2 rounded-md font-medium hover:bg-yellow-500 transition text-xs">
                 → Discover More
               </button>
             </div>
           </div>
 
           {/* Card 3 */}
-          <div className="bg-white  py-6 border-3 border-[#EFEDE4]    px-4 shadow-md  overflow-hidden hover:shadow-lg transition">
+          <div className="bg-white  py-4 px-4 border-3 border-[#EFEDE4]    px-4 shadow-md  overflow-hidden hover:shadow-lg transition">
             <Image
               src={im3}
               alt="Social Welfare"
@@ -79,12 +79,12 @@ export default function WhatWeDo() {
               className="w-full h-48 object-contain"
             />
             <div className="p-6">
-              <h3 className="text-xl font-semibold text-gray-800">Social Welfare</h3>
-              <p className="text-gray-600 mt-2 text-sm">
+              <h3 className="text-xl font-semibold text-[#0A5B21]">Social Welfare</h3>
+              <p className="text-gray-600 mt-2 text-xs ">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
                 luctus nec ullamcorper mattis, pulvinar dapibus leo.
               </p>
-              <button className="mt-4 bg-[#DBAC42] text-gray-900 px-5 py-2 rounded-md font-medium hover:bg-yellow-500 transition">
+              <button className="mt-4 bg-[#DBAC42] text-gray-900 px-5 py-2 rounded-md font-medium hover:bg-yellow-500 transition text-xs">
                 → Discover More
               </button>
             </div>

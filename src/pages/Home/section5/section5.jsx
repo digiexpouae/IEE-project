@@ -8,7 +8,7 @@ import icon3 from '../../../../public/assets/section5/icon3.svg'
 
 const Section5 = () => {
   return (
-    <section className="w-full h-screen bg-white py-12 relative z-20">
+    <section className="w-full h-auto bg-white py-16 relative z-20">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 px-6">
         
         {/* Left Side (Images) */}
@@ -34,8 +34,8 @@ const Section5 = () => {
           
           {/* Item 1 */}
           <div className="flex items-start gap-4">
-            <div className="bg-[#DBAC42] p-4 rounded-full text-white text-xl">
-              <Image src={icon1} alt="Icon" className="w-6 h-6" />
+            <div className="bg-[#DBAC42] h-[60%] md:h-auto  flex items-center justify-center p-4 rounded-full text-white text-xl">
+              <Image src={icon1} alt="Icon" className="w-8 h-8 md:w-6 md:h-6" />
             </div>
             <div>
               <h3 className="text-[#0A5B21] text-md font-semibold">Ramadan vigils</h3>
@@ -47,8 +47,8 @@ const Section5 = () => {
 
           {/* Item 2 */}
           <div className="flex items-start gap-4">
-            <div className="bg-[#DBAC42] p-4 rounded-full text-white text-xl">
-                    <Image src={icon2} alt="Icon" className="w-6 h-6" />
+            <div className="bg-[#DBAC42]  h-[60%] md:h-auto flex items-center justify-center  p-4 rounded-full text-white text-xl">
+                    <Image src={icon2} alt="Icon" className="w-8 h-8 md:w-6 md:h-6" />
             </div>
             <div>
               <h3 className="text-[#0A5B21] text-md font-semibold">Deliver dynamic Khutbas</h3>
@@ -60,8 +60,8 @@ const Section5 = () => {
 
           {/* Item 3 */}
           <div className="flex items-start gap-4">
-            <div className="bg-[#DBAC42] p-4 rounded-full text-white text-xl">
-              <Image src={icon3} alt="Icon" className="w-6 h-6" />
+            <div className="bg-[#DBAC42]  h-[60%] md:h-auto flex items-center justify-center  p-4 rounded-full text-white text-xl">
+              <Image src={icon3} alt="Icon" className="w-8 h-8 md:w-6 md:h-6" />
             </div>
             <div>
               <h3 className="text-[#0A5B21] text-md font-semibold">Publishing Islamic magazines</h3>
