@@ -55,10 +55,10 @@ const Header = () => {
           <a href="#" className="hover:opacity-80 transition h-[16] w-[16]">
             <Image src={instagram} width={16} height={16} alt="Instagram" />
           </a>
-          <a href="#" className="hover:opacity-80 transition h-[16] w-[16]">
-            <Image src={facebook} width={16} height={16} alt="Facebook" />
+          <a href="#" className="hover:opacity-80 transition h-[14] w-[14]">
+            <Image src={facebook} width={13} height={13} alt="Facebook" />
           </a>
-          <a href="#" className="hover:opacity-80 transition h-[16] w-[16]">
+          <a href="#" className="hover:opacity-80 transition h-[12] w-[12]">
             <Image src={twitter} width={16} height={16} alt="Twitter" />
           </a>
           <a href="#" className="hover:opacity-80 transition h-[16] w-[16]">
