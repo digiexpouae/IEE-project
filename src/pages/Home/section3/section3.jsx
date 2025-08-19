@@ -39,7 +39,7 @@ export default function AboutUs() {
 
         {/* Right side text */}
         <div className="w-full lg:w-1/2 text-center lg:text-left space-y-4">
-          <p className="text-green-600  text-xs font-semibold">Guaranteed Success</p>
+          <p className="text-green-600  text-xs font-semibold mt-6">Guaranteed Success</p>
           <h2 className="text-3xl font-medium">About Us</h2>
           <p className="text-gray-600 text-xs leading-relaxed">
             The mission of the Muslim Association of Virginia (MAV) is to establish and 
