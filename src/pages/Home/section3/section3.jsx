@@ -48,16 +48,16 @@ export default function AboutUs() {
 
           {/* Bullet points */}
           <ul className="space-y-2 text-xs text-gray-700">
-            <li className="flex items-start gap-2">
-              <span className="text-green-600">➤</span>
-              The Masjid is the center of spiritual and community life
+            <li className="flex items-start gap-1">
+              <span className="text-green-600 " ><Image src='/assets/arrowicon.svg' width={16} height={16} /></span>
+             The Masjid is the center of spiritual and community life
             </li>
             <li className="flex items-start gap-2">
-              <span className="text-green-600">➤</span>
+              <span className="text-green-600"><Image src='/assets/arrowicon.svg' width={16} height={16} /></span>
               We believe in Allah, His Angels, His Prophets
             </li>
             <li className="flex items-start gap-2">
-              <span className="text-green-600">➤</span>
+              <span className="text-green-600"><Image src='/assets/arrowicon.svg' width={16} height={16} /></span>
               The Believers, the Executive Committee
             </li>
           </ul>
