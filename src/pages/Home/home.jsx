@@ -6,6 +6,9 @@ import Section4 from './section4/section4'
 import Section5 from './section5/section5'
 import Section6 from './section6/section6'
 import Section7 from './section7/section7'
+import Section8 from './section8/section8'
+import Section9 from './section9/section9'
+import Footer from '../../layout/footer'
  const home=()=>{
     return(
         <div>
@@ -17,6 +20,9 @@ import Section7 from './section7/section7'
             <Section5/>
             <Section6 />
            <Section7 /> 
+           <Section8/>
+           <Section9/>
+           <Footer/>
         </div>
     )
 }
