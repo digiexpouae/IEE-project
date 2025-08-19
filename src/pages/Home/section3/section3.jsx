@@ -62,7 +62,7 @@ export default function AboutUs() {
             </li>
           </ul>
 
-          {/* Button */}
+          {/* Buttons */}
           <button className="mt-6 px-6 py-3 bg-[#DBAC42] hover:bg-yellow-600 text-white rounded shadow-md transition">
             Discover more
           </button>
