@@ -53,7 +53,7 @@ const Section9 = () => {
       title: 'Islamic Lecture Series',
       location: 'Conference Hall',
       time: '6:30 PM - 8:30 PM',
-      imageSrc: '/assets/section9/3.png',
+      imageSrc: '/assets/section9/3 (2).jpg',
       altText: 'Islamic Lecture'
     }
   ];
