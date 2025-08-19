@@ -68,11 +68,11 @@ export default function Footer() {
         <div className="my-10 h-full"> 
           <h3 className="text-lg font-semibold mb-5 ">Contact Info</h3>
           <ul className="space-y-3">
-            <li><span className="text-gray-300 text-sm">📍 123 Business Avenue, Suite 100</span></li>
-            <li><a href="tel:+15551234567" className="text-gray-300 text-sm hover:text-white transition-colors">📞 +1 (555) 123-4567</a></li>
-            <li><a href="mailto:info@company.com" className="text-gray-300 text-sm hover:text-white transition-colors">✉️ info@company.com</a></li>
-            <li><a href="https://www.company.com" className="text-gray-300 text-sm hover:text-white transition-colors">🌐 www.company.com</a></li>
-            <li><span className="text-gray-300 text-sm">🕒 Mon-Fri: 9AM - 6PM</span></li>
+            <li><span className="text-gray-300 text-sm flex gap-2"><Image width={16} height={16} src='/assets/f-Icon-1.svg'/> Bain & Company, United States</span></li>
+            <li><a href="tel:+15551234567" className="text-gray-300 text-sm hover:text-white transition-colors flex gap-2"><Image width={16} height={16} src='/assets/f-icon2.svg'/> +1 (555) 123-4567</a></li>
+            <li><a href="mailto:info@company.com" className="text-gray-300 text-sm hover:text-white transition-colors flex gap-2"><Image width={16} height={16} src='/assets/email.svg'/> info@company.com</a></li>
+            <li><a href="https://www.company.com" className="text-gray-300 text-sm hover:text-white transition-colors flex gap-2"><Image width={16} height={16} src='/assets/f-clock.svg'/> Office Hours: 8AM - 11PM</a></li>
+
           </ul>
         </div>
       </div>
