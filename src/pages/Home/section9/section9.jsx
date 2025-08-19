@@ -23,8 +23,8 @@ const EventBox = ({ date, title, location, time, imageSrc, altText }) => (
         </div>
       
       </div>
-      <button className="flex items-center  bg-[#DBAC42] rounded-md h-10 px-4 font-medium hover:text-[#0a7c2d] transition-colors">
-      <Image src='/assets/section9/arrow.svg' style={{whiteSpace:'nowrap'}} width={16} height={16} className='mr-2'/> DISCOVER MORE
+      <button className="flex items-center justify-center gap-2 bg-[#DBAC42] rounded-md h-10 px-4 font-medium hover:text-[#0a7c2d] transition-colors text-xs" style={{whiteSpace:'nowrap'}} >
+      <Image src='/assets/section9/arrow.svg' width={16} height={16} /> DISCOVER MORE
       </button>
     </div>
   </div>
