@@ -10,7 +10,7 @@ const Testimonials = () => {
   </div>
       <div className="max-w-5xl mx-auto px-6 text-center  relative z-10">
         {/* Section Heading */}
-        <p className="text-yellow-500 font-medium">Our community initiatives</p>
+        <span className="text-yellow-500 font-medium">Our community initiatives</span>
         <h2 className="text-3xl md:text-4xl font-bold mt-2">What People Say</h2>
         <p className="mt-4 max-w-2xl mx-auto text-gray-200">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit

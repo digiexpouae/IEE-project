@@ -13,7 +13,7 @@ const Projects = () => {
       <div className="max-w-7xl flex flex-col items-center justify-center mx-auto px-6 text-center relative z-10">
         
         {/* Heading */}
-        <p className="text-green-600 font-medium">Our community initiatives</p>
+        <span className="text-green-600 font-medium">Our community initiatives</span>
         <h2 className="text-3xl md:text-4xl font-medium mt-2">Explore Our Projects</h2>
         <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
