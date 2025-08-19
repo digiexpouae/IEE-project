@@ -4,8 +4,8 @@ import im1 from '../../../../public/assets/section4/1.JPG'
 import im2 from '../../../../public/assets/section4/2.JPG'
 export default function PrayerSection() {
   return (
-    <section className="relative w-full h-auto  md:flex items-center justify-center bg-zinc-100 bg-[url('/pattern.png')] bg-repeat py-16">
-          <div className="absolute inset-0 z-[0] bg-cover bg-center bg-no-repeat"
+    <section className="relative w-full h-auto  md:flex items-center justify-center bg-[#F4F4F4] py-16">
+          <div className="absolute inset-0 z-[0] opacity-[0.1] bg-cover bg-center bg-no-repeat"
        style={{ backgroundImage: "url('/assets/section2/background.png')" ,backgroundSize:'cover',backgroundPosition:'center'}}>
   </div>
 
@@ -26,7 +26,7 @@ export default function PrayerSection() {
   <div className="absolute inset-0 bg-black opacity-[0.4] z-10 flex flex-col justify-center items-center text-center text-white"></div>
         <div className="absolute flex flex-col items-center justify-center inset-0 z-20">
 <h3 className="text-2xl  text-white font-bold">Ramadan</h3>
-    <button className="relative z-20 mt-4 px-4 text-white py-2 bg-yellow-500 hover:bg-yellow-600 text-sm font-medium rounded transition">
+    <button className="relative z-20 mt-4 px-4 text-white py-2 bg-[#DBAC42] hover:bg-yellow-600 text-sm font-medium rounded transition">
       → Discover More
     </button>
     </div>
@@ -45,14 +45,14 @@ export default function PrayerSection() {
   <div className="absolute inset-0 bg-black opacity-[0.4] z-10 flex flex-col justify-center items-center text-center text-white"></div>
         <div className="absolute flex flex-col text-white items-center justify-center inset-0 z-20">
               <h3 className="text-2xl font-bold">Reading Quran</h3>
-              <button className="mt-4 px-4 py-2 bg-yellow-500 hover:bg-yellow-600 text-sm font-medium rounded transition">
+              <button className="mt-4 px-4 py-2 bg-[#DBAC42] hover:bg-yellow-600 text-sm font-medium rounded transition">
                 → Discover More
               </button>
             </div>
           </div>
 
           {/* Prayer Timings */}
-          <div className="bg-[#0A5B21] h-82 relative z-10 text-white rounded-lg shadow-md p-6">
+          <div className="bg-[#0A5B21] h-82  text-white rounded-lg shadow-md p-6">
             <h3 className="text-xl font-semibold mb-4">Prayer Timings</h3>
             <ul className="space-y-3">
               {[
@@ -65,7 +65,7 @@ export default function PrayerSection() {
               ].map((prayer, index) => (
                 <li key={index} className="flex justify-between items-center">
                   <span>{prayer.name}</span>
-                  <span className="bg-yellow-500 text-gray-900 px-3 py-1 text-sm rounded">
+                  <span className="bg-[#DBAC42] text-gray-900 px-3 py-1 text-sm rounded">
                     {prayer.time}
                   </span>
                 </li>
