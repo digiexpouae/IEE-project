@@ -9,6 +9,8 @@ import facebook from '../../public/assets/facebook.svg';
 import twitter from '../../public/assets/twitter.svg';
 import linkedin from '../../public/assets/linkdin.svg';
 import menuIcon from '../../public/assets/ham.svg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faXmark } from "@fortawesome/free-solid-svg-icons";
 // import closeIcon from '../../public/assets/close.svg';
 
 const Header = () => {
@@ -149,12 +151,8 @@ const Header = () => {
               className="text-white p-2 focus:outline-none"
               aria-label="Close menu"
             >
-              <Image 
-                src={menuIcon} 
-                width={24} 
-                height={24} 
-                alt="Close menu"
-              />
+    
+    <FontAwesomeIcon icon={faXmark} />
             </button>
           </div>
           

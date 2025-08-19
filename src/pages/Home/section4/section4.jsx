@@ -4,7 +4,7 @@ import im1 from '../../../../public/assets/section4/1.JPG'
 import im2 from '../../../../public/assets/section4/2.JPG'
 export default function PrayerSection() {
   return (
-    <section className="relative w-full bg-zinc-100 bg-[url('/pattern.png')] bg-repeat py-12">
+    <section className="relative w-full h-auto md:flex items-center justify-center bg-zinc-100 bg-[url('/pattern.png')] bg-repeat py-12">
           <div className="absolute inset-0 z-[0] bg-cover bg-center bg-no-repeat"
        style={{ backgroundImage: "url('/assets/section2/background.png')" ,backgroundSize:'cover',backgroundPosition:'center'}}>
   </div>
@@ -19,7 +19,7 @@ export default function PrayerSection() {
               alt="Ramadan"
               width={400}
               height={500}
-              className="w-full h-82 object-cover transform group-hover:scale-105 transition"
+              className="w-full h-62 md:h-82 object-cover transform group-hover:scale-105 transition"
             />
             <div className="absolute inset-0 bg-opacity-40 flex flex-col justify-center items-center text-center text-white">
               <h3 className="text-2xl font-bold">Ramadan</h3>
@@ -36,7 +36,7 @@ export default function PrayerSection() {
               alt="Reading Quran"
               width={400}
               height={500}
-              className="w-full h-82 object-cover transform group-hover:scale-105 transition"
+              className="w-full h-62 md:h-82 object-cover transform group-hover:scale-105 transition"
             />
             <div className="absolute inset-0 bg-opacity-40 flex flex-col justify-center items-center text-center text-white">
               <h3 className="text-2xl font-bold">Reading Quran</h3>
