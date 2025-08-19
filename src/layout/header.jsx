@@ -50,15 +50,15 @@ const Header = () => {
         </div>
         <div className="flex items-center space-x-4">
           <a href="#" className="hover:opacity-80 transition h-[16] w-[16]">
-            <Image src={whatsapp} width={16} height={16} alt="WhatsApp" />
+            <Image src={whatsapp} width={18} height={18} alt="WhatsApp" />
           </a>
           <a href="#" className="hover:opacity-80 transition h-[16] w-[16]">
             <Image src={instagram} width={16} height={16} alt="Instagram" />
           </a>
           <a href="#" className="hover:opacity-80 transition h-[14] w-[14]">
-            <Image src={facebook} width={13} height={13} alt="Facebook" />
+            <Image src={facebook} width={12} height={12} alt="Facebook" />
           </a>
-          <a href="#" className="hover:opacity-80 transition h-[12] w-[12]">
+          <a href="#" className="hover:opacity-80 transition h-[16] w-[16]">
             <Image src={twitter} width={16} height={16} alt="Twitter" />
           </a>
           <a href="#" className="hover:opacity-80 transition h-[16] w-[16]">
