@@ -28,17 +28,18 @@ export default function WhatWeDo() {
         {/* Cards Grid */}
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 w-[85%] mx-auto">
           {/* Card 1 */}
-          <div className="bg-white border-1 border-3 border-[#EFEDE4]  py-6  px-4 shadow-md  overflow-hidden hover:shadow-lg transition">
+          <div className="bg-white border-1 border-3 border-[#EFEDE4]  py-6  px-6 shadow-md  overflow-hidden hover:shadow-lg transition">
             <Image
               src={im2}
               alt="Daily Prayers"
               width={400}
+           
               height={450}
-              className="w-full h-48 object-contain"
+              className="w-full h-48  object-contain"
             />
-            <div className="p-6">
-              <h3 className="text-xl font-semibold text-[#0A5B21]">Daily Prayers</h3>
-              <p className="text-gray-600 mt-2 text-xs">
+            <div className="p-2 flex flex-col  items-center">
+              <h3 className="text-xl font-light text-[#0A5B21]">Daily Prayers</h3>
+              <p className="text-gray-600 text-center mt-2 text-xs">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
                 luctus nec ullamcorper mattis, pulvinar dapibus leo.
               </p>
@@ -49,17 +50,17 @@ export default function WhatWeDo() {
           </div>
 
           {/* Card 2 */}
-          <div className="bg-white  py-6  px-4 shadow-md border-3 border-[#EFEDE4]    overflow-hidden hover:shadow-lg transition">
+          <div className="bg-white  py-6  px-6 shadow-md border-3 border-[#EFEDE4]    overflow-hidden hover:shadow-lg transition">
             <Image
               src={im1}
               alt="Family Counseling"
               width={400}
               height={450}
-              className="w-full h-48  rounded-lg  object-contain"
+              className="w-full   rounded  object-contain"
             />
-            <div className="p-6">
-              <h3 className="text-xl font-semibold text-[#0A5B21]">Family Counseling</h3>
-              <p className="text-gray-600 mt-2 text-xs">
+            <div className="p-2 flex flex-col  items-center">
+              <h3 className="text-xl font-light text-[#0A5B21]">Family Counseling</h3>
+              <p className="text-gray-600  text-center mt-2 text-xs">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
                 luctus nec ullamcorper mattis, pulvinar dapibus leo.
               </p>
@@ -70,17 +71,17 @@ export default function WhatWeDo() {
           </div>
 
           {/* Card 3 */}
-          <div className="bg-white  py-4 px-4 border-3 border-[#EFEDE4]    px-4 shadow-md  overflow-hidden hover:shadow-lg transition">
+          <div className="bg-white  py-6 px-6 border-3 border-[#EFEDE4]    px-4 shadow-md  overflow-hidden hover:shadow-lg transition">
             <Image
               src={im3}
               alt="Social Welfare"
               width={400}
               height={450}
-              className="w-full h-48 object-contain"
+              className="w-full rounded object-contain"
             />
-            <div className="p-6">
-              <h3 className="text-xl font-semibold text-[#0A5B21]">Social Welfare</h3>
-              <p className="text-gray-600 mt-2 text-xs ">
+            <div className="p-2 flex flex-col  items-center">
+              <h3 className="text-xl font-light text-[#0A5B21]">Social Welfare</h3>
+              <p className="text-gray-600 text-center mt-2 text-xs ">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
                 luctus nec ullamcorper mattis, pulvinar dapibus leo.
               </p>
