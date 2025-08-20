@@ -9,7 +9,7 @@ export default function PrayerSection() {
        style={{ backgroundImage: "url('/assets/section2/background.png')" ,backgroundSize:'cover',backgroundPosition:'center'}}>
   </div>
 
-      <div className="container mx-auto px-6 lg:px-16 w-full flex items-center justify-center">
+      <div className="container mx-auto px-6 xl:px-16 w-full flex items-center justify-center">
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 items-start w-[85%]">
           
           {/* Card 1 */}
@@ -26,7 +26,7 @@ export default function PrayerSection() {
   <div className="absolute inset-0 bg-black opacity-[0.4] z-10 flex flex-col justify-center items-center text-center text-white"></div>
         <div className="absolute flex flex-col items-center justify-center inset-0 z-20">
 <h3 className="text-2xl  text-white font-bold">Ramadan</h3>
-    <button className="relative z-20 mt-4 px-4 text-white py-2 bg-[#DBAC42] hover:bg-yellow-600 text-sm font-medium rounded transition">
+    <button className="relative z-20 mt-4 px-4 text-black py-2 bg-[#DBAC42] hover:bg-yellow-600 text-sm font-medium rounded transition">
       → Discover More
     </button>
     </div>
@@ -45,16 +45,16 @@ export default function PrayerSection() {
   <div className="absolute inset-0 bg-black opacity-[0.4] z-10 flex flex-col justify-center items-center text-center text-white"></div>
         <div className="absolute flex flex-col text-white items-center justify-center inset-0 z-20">
               <h3 className="text-2xl font-bold">Reading Quran</h3>
-              <button className="mt-4 px-4 py-2 bg-[#DBAC42] hover:bg-yellow-600 text-sm font-medium rounded transition">
+              <button className="mt-4 px-4 py-2 bg-[#DBAC42] hover:bg-yellow-600 text-sm font-medium rounded transition text-black">
                 → Discover More
               </button>
             </div>
           </div>
 
           {/* Prayer Timings */}
-          <div className="bg-[#0A5B21] h-82  text-white rounded-lg shadow-md p-6">
-            <h3 className="text-xl font-semibold mb-4">Prayer Timings</h3>
-            <ul className="space-y-3">
+          <div className="bg-[#0A5B21] h-82 p-12 flex flex-col items-left   text-white rounded-lg shadow-md p-6">
+            <h3 className="text-xl font-light mb-4">Prayer Timings</h3>
+            <ul className="space-y-1">
               {[
                 { name: "FAJR", time: "5:44 AM" },
                 { name: "SUNRISE", time: "6:59 AM" },
@@ -62,13 +62,15 @@ export default function PrayerSection() {
                 { name: "ASR", time: "5:44 AM" },
                 { name: "MAGHRIB", time: "4:52 PM" },
                 { name: "ISHA", time: "6:10 PM" },
-              ].map((prayer, index) => (
-                <li key={index} className="flex justify-between items-center">
+              ].map((prayer, index) => (<>
+                <li key={index} className="flex justify-between items-center text-xs">
                   <span>{prayer.name}</span>
-                  <span className="bg-[#DBAC42] text-gray-900 px-3 py-1 text-sm rounded">
+                  <span className="bg-[#DBAC42] text-gray-900 px-3 py-1 text-xs rounded">
                     {prayer.time}
                   </span>
                 </li>
+                                 < hr style={{color:'#FFFFFF4A'}} />
+</>
               ))}
             </ul>
           </div>
