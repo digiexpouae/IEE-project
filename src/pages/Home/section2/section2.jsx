@@ -35,7 +35,7 @@ export default function WhatWeDo() {
               width={400}
            
               height={450}
-              className="w-full h-48  object-contain"
+              className="w-full  object-contain"
             />
             <div className="p-2 flex flex-col  items-center">
               <h3 className="text-xl font-light text-[#0A5B21]">Daily Prayers</h3>
