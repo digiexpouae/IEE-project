@@ -43,8 +43,8 @@ export default function WhatWeDo() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
                 luctus nec ullamcorper mattis, pulvinar dapibus leo.
               </p>
-              <button className="mt-4 bg-[#DBAC42] text-gray-900 px-5 py-2 rounded-md font-medium hover:bg-yellow-500 transition text-xs">
-                → Discover More
+              <button className="mt-4 bg-[#DBAC42] flex items-center gap-2 text-gray-900 px-5 py-2 rounded-md font-medium hover:bg-yellow-500 transition text-xs">
+                <Image src='/assets/section9/arrow.svg' width={12} height={12} /> Discover More
               </button>
             </div>
           </div>
@@ -64,8 +64,8 @@ export default function WhatWeDo() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
                 luctus nec ullamcorper mattis, pulvinar dapibus leo.
               </p>
-              <button className="mt-4 bg-[#DBAC42] text-gray-900 px-5 py-2 rounded-md font-medium hover:bg-yellow-500 transition text-xs">
-                → Discover More
+              <button className="mt-4 bg-[#DBAC42] flex items-center gap-2 text-gray-900 px-5 py-2 rounded-md font-medium hover:bg-yellow-500 transition text-xs">
+                <Image src='/assets/section9/arrow.svg' width={12} height={12} /> Discover More
               </button>
             </div>
           </div>
@@ -85,8 +85,8 @@ export default function WhatWeDo() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
                 luctus nec ullamcorper mattis, pulvinar dapibus leo.
               </p>
-              <button className="mt-4 bg-[#DBAC42] text-gray-900 px-5 py-2 rounded-md font-medium hover:bg-yellow-500 transition text-xs">
-                → Discover More
+              <button className="mt-4 bg-[#DBAC42] flex items-center gap-2 text-gray-900 px-5 py-2 rounded-md font-medium hover:bg-yellow-500 transition text-xs">
+                <Image src='/assets/section9/arrow.svg' width={12} height={12} /> Discover More
               </button>
             </div>
           </div>

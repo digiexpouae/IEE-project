@@ -26,9 +26,9 @@ export default function PrayerSection() {
   <div className="absolute inset-0 bg-black opacity-[0.4] z-10 flex flex-col justify-center items-center text-center text-white"></div>
         <div className="absolute flex flex-col items-center justify-center inset-0 z-20">
 <h3 className="text-2xl  text-white font-bold">Ramadan</h3>
-    <button className="relative z-20 mt-4 px-4 text-black py-2 bg-[#DBAC42] hover:bg-yellow-600 text-sm font-medium rounded transition">
-      → Discover More
-    </button>
+     <button className="mt-4 bg-[#DBAC42] flex items-center gap-1 text-gray-900 px-5 py-2 rounded-md font-medium hover:bg-yellow-500 transition text-xs">
+                   <Image src='/assets/section9/arrow.svg' width={12} height={12} /> Discover More
+                 </button>
     </div>
 </div>
 
@@ -45,9 +45,9 @@ export default function PrayerSection() {
   <div className="absolute inset-0 bg-black opacity-[0.4] z-10 flex flex-col justify-center items-center text-center text-white"></div>
         <div className="absolute flex flex-col text-white items-center justify-center inset-0 z-20">
               <h3 className="text-2xl font-bold">Reading Quran</h3>
-              <button className="mt-4 px-4 py-2 bg-[#DBAC42] hover:bg-yellow-600 text-sm font-medium rounded transition text-black">
-                → Discover More
-              </button>
+        <button className="mt-4 bg-[#DBAC42] flex items-center gap-1 text-gray-900 px-5 py-2 rounded-md font-medium hover:bg-yellow-500 transition text-xs">
+                      <Image src='/assets/section9/arrow.svg' width={12} height={12} /> Discover More
+                    </button>
             </div>
           </div>
 
