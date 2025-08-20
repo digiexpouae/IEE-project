@@ -38,7 +38,7 @@ const Section5 = () => {
               <Image src={icon1} alt="Icon" className="w-8 h-8 md:w-6 md:h-6" />
             </div>
             <div>
-              <h3 className="text-[#0A5B21] text-md font-semibold">Ramadan vigils</h3>
+              <h3 className="text-[#0A5B21] text-md font-light">Ramadan vigils</h3>
               <p className="text-gray-600 text-xs ">
                 Quran and Islamic orders classes, forming chore groups and performing Tawashih on ceremonies ...
               </p>
@@ -51,7 +51,7 @@ const Section5 = () => {
                     <Image src={icon2} alt="Icon" className="w-8 h-8 md:w-6 md:h-6" />
             </div>
             <div>
-              <h3 className="text-[#0A5B21] text-md font-semibold">Deliver dynamic Khutbas</h3>
+              <h3 className="text-[#0A5B21] text-md font-light">Deliver dynamic Khutbas</h3>
               <p className="text-gray-600 text-xs ">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis...
               </p>
@@ -64,7 +64,7 @@ const Section5 = () => {
               <Image src={icon3} alt="Icon" className="w-8 h-8 md:w-6 md:h-6" />
             </div>
             <div>
-              <h3 className="text-[#0A5B21] text-md font-semibold">Publishing Islamic magazines</h3>
+              <h3 className="text-[#0A5B21] text-md font-light">Publishing Islamic magazines</h3>
               <p className="text-gray-600 text-xs ">
                 Cultural section of the mosque according to different demand of Islamic knowledge for age levels ...
               </p>
