@@ -41,8 +41,8 @@ const Projects = () => {
                 <span className="flex items-center gap-2 text-gray-600">
                   <Image width={16} height={16} src='/assets/f-clock-2.svg' />1 Day Left
                 </span>
-                <button className="bg-[#DBAC42] flex gap-2 hover:bg-yellow-600 text-black text-sm font-medium px-4 py-2 rounded">
-            <Image src='/assets/section9/arrow.svg' width={16} height={16} />  DONATE NOW
+                <button className="bg-[#DBAC42] flex gap-2 hover:bg-yellow-600 text-black text-xs font-medium px-4 py-2 rounded">
+            <Image src='/assets/section9/arrow.svg' width={12} height={12} />  DONATE NOW
                 </button>
               </div>
             </div>
@@ -66,8 +66,8 @@ const Projects = () => {
               <span className="flex items-center gap-2 text-gray-600">
                   <Image width={16} height={16} src='/assets/f-clock-2.svg' />1 Day Left
                 </span>
-                <button className="bg-[#DBAC42] flex gap-2 hover:bg-yellow-600 text-black text-sm font-medium px-4 py-2 rounded">
-                <Image src='/assets/section9/arrow.svg' width={16} height={16} />    DONATE NOW
+                <button className="bg-[#DBAC42] flex gap-2 hover:bg-yellow-600 text-black text-xs font-medium px-4 py-2 rounded">
+                <Image src='/assets/section9/arrow.svg' width={12} height={12} />    DONATE NOW
                 </button>
               </div>
             </div>
@@ -89,8 +89,8 @@ const Projects = () => {
               <span className="flex items-center gap-2 text-gray-600">
                   <Image width={16} height={16} src='/assets/f-clock-2.svg' />1 Day Left
                 </span>
-                <button className="bg-[#DBAC42] flex gap-2 hover:bg-yellow-600 text-black text-sm font-medium px-4 py-2 rounded">
-                <Image src='/assets/section9/arrow.svg' width={16} height={16} />  DONATE NOW
+                <button className="bg-[#DBAC42] flex gap-2 hover:bg-yellow-600 text-black text-xs font-medium px-4 py-2 rounded">
+                <Image src='/assets/section9/arrow.svg' width={12} height={12} />  DONATE NOW
                 </button>
               </div>
             </div>
