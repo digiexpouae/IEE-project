@@ -12,19 +12,19 @@ const EventBox = ({ date, title, location, time, imageSrc, altText }) => (
 
       />
     </div>
-    <div className="p-6 flex-1 flex  items-center justify-between">
+    <div className="p-6 flex-1 flex gap-4 md:gap-0 items-start md:items-center justify-between">
       <div>
        
         <h3 className="text-xl font-light text-gray-800 mb-2">{title}</h3>
         <div className="flex items-center text-sm text-gray-600 gap-2 mb-3">
         
           <Image src='/assets/f-clock-2.svg' width={16} height={16} />
-          <p className='text-sm !text-[#7A7A7A]'>{date}</p>
+          <p style={{whiteSpace:'nowrap'}} className='text-sm !text-[#7A7A7A]'>{date}</p>
         </div>
       
       </div>
       <button className="flex items-center justify-center gap-2 bg-[#DBAC42] rounded-md h-10 px-4 font-medium hover:text-[#0a7c2d] transition-colors text-xs" style={{whiteSpace:'nowrap'}} >
-      <Image src='/assets/section9/arrow.svg' width={16} height={16} /> DISCOVER MORE
+      <Image src='/assets/section9/arrow.svg' width={12} height={12} /> DISCOVER MORE
       </button>
     </div>
   </div>
