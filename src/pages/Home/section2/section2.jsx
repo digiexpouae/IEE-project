@@ -44,7 +44,7 @@ export default function WhatWeDo() {
                 luctus nec ullamcorper mattis, pulvinar dapibus leo.
               </p>
               <button className="mt-4 bg-[#DBAC42] flex items-center gap-2 text-gray-900 px-5 py-2 rounded-md font-medium hover:bg-yellow-500 transition text-xs">
-                <Image src='/assets/section9/arrow.svg' width={12} height={12} /> Discover More
+                <Image src='/assets/section9/arrow.svg' width={12} height={12} />DISCOVER MORE
               </button>
             </div>
           </div>
@@ -65,7 +65,7 @@ export default function WhatWeDo() {
                 luctus nec ullamcorper mattis, pulvinar dapibus leo.
               </p>
               <button className="mt-4 bg-[#DBAC42] flex items-center gap-2 text-gray-900 px-5 py-2 rounded-md font-medium hover:bg-yellow-500 transition text-xs">
-                <Image src='/assets/section9/arrow.svg' width={12} height={12} /> Discover More
+                <Image src='/assets/section9/arrow.svg' width={12} height={12} /> DISCOVER MORE
               </button>
             </div>
           </div>
@@ -86,7 +86,7 @@ export default function WhatWeDo() {
                 luctus nec ullamcorper mattis, pulvinar dapibus leo.
               </p>
               <button className="mt-4 bg-[#DBAC42] flex items-center gap-2 text-gray-900 px-5 py-2 rounded-md font-medium hover:bg-yellow-500 transition text-xs">
-                <Image src='/assets/section9/arrow.svg' width={12} height={12} /> Discover More
+                <Image src='/assets/section9/arrow.svg' width={12} height={12} /> DISCOVER MORE
               </button>
             </div>
           </div>
