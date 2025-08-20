@@ -26,7 +26,7 @@ const Section1 = () => {
                         Muslims do at the mosque?
                         </h1>
                       
-                        <div className="flex flex-col sm:flex-row gap-4">
+                        <div className="flex flex-col items-center justify-center sm:flex-row gap-4">
                             <button className=" bg-[#0A5B21] hover:bg-[#0A5B21] text-white px-8 py-3 rounded-md font-medium transition-colors">
 Welcome                            </button>
                             <button className="flex items-center justify-center gap-2 bg-[#DBAC42] hover:bg-[#DBAC42] text-black px-8 py-3 rounded-md font-medium transition-colors backdrop-blur-sm">
