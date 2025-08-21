@@ -10,7 +10,7 @@ const contact=()=>{
     return (
         <>
         <Header />
-        <HeroSection text="Contact" heroImage={heroimage} className={'!object-[60%_100%]'} className2={'hidden'} />
+        <HeroSection text="Contact Us" heroImage={heroimage} className={'!object-[60%_95%]'} className2={'hidden'} />
         <ContactInfo />
         <ContactSection />
         <Map />

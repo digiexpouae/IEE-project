@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const HeroSection = ({text,heroImage,className,className2}) => {
     return (
-        <div className="h-[70vh] md:h-[80vh] w-full relative">
+        <div className="h-[70vh]  w-full relative">
             {/* Background Image */}
             <Image 
                 src={heroImage} 
@@ -13,7 +13,7 @@ const HeroSection = ({text,heroImage,className,className2}) => {
             />
             
             {/* Overlay */}
-            <div className="absolute inset-0 bg-[#00000080] z-[5]"></div>
+            <div className="absolute inset-0 bg-[#00000033] z-[5]"></div>
             
             {/* Content */}
             <div className="absolute inset-0 z-10 flex items-center">
@@ -21,7 +21,7 @@ const HeroSection = ({text,heroImage,className,className2}) => {
                     <div className="w-full flex items-center justify-center">
                       
                         
-                        <h1 className="text-4xl md:text-6xl  text-center lg:text-7xl font-light mb-6 leading-tight">
+                        <h1 className="text-4xl md:text-6xl  text-center  font-light  leading-tight">
                          {text}
                         </h1>
                         

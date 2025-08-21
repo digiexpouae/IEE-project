@@ -8,7 +8,7 @@ const About = () => {
     return(
         <>
         <Header />
-        <HeroSection  text="About US" heroImage={heroImage} />
+        <HeroSection  text="About Us" heroImage={heroImage} />
         <SectionQ />
         <Section3 />
         <Footer />

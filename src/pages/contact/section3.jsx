@@ -4,6 +4,9 @@ import Image from 'next/image';
 
 
 export default function ContactSection() {
+
+
+
   return (
     <section className="w-full max-w-5xl md:h-[60vh] lg:h-[80vh] mx-auto p-6 flex items-center justify-center ">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
@@ -11,7 +14,7 @@ export default function ContactSection() {
         {/* Left Side */}
         <div>
           <h2 className="text-4xl font-light mb-2">Love To Hear From You</h2>
-          <p className="text-gray-600 mb-4 text-sm">
+          <p className="text-gray-600 mb-4 text-xs">
             Reach us out directly or send us a message regarding any information, business queries, or just a friendly hello. We’d love to hear from you.
           </p>
 
