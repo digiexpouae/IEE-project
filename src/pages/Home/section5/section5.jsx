@@ -17,14 +17,14 @@ const Section5 = () => {
             <Image 
               src={man} 
               alt="Praying Man" 
-              className="rounded-lg shadow-md w-full object-cover md:h-full"
+              className="rounded-md shadow-md w-full object-cover md:h-full"
             />
           </div>
           <div className="flex-1">
             <Image 
               src={woman} 
               alt="Praying Woman" 
-              className="rounded-lg shadow-md w-full object-cover md:h-full"
+              className="rounded-md shadow-md w-full object-cover md:h-full"
             />
           </div>
         </div>
@@ -34,7 +34,7 @@ const Section5 = () => {
           
           {/* Item 1 */}
           <div className="flex items-start gap-4">
-            <div className="bg-[#DBAC42] h-[60%] md:h-auto  flex items-center justify-center p-4 rounded-full text-white text-xl">
+            <div className="bg-[#DBAC42] h-[60%] md:h-auto lg:h-[90%] flex items-center justify-center p-4 rounded-full text-white text-xl">
               <Image src={icon1} alt="Icon" className="w-8 h-8 md:w-6 md:h-6" />
             </div>
             <div>
@@ -47,7 +47,7 @@ const Section5 = () => {
 
           {/* Item 2 */}
           <div className="flex items-start gap-4">
-            <div className="bg-[#DBAC42]  h-[60%] md:h-auto flex items-center justify-center  p-4 rounded-full text-white text-xl">
+            <div className="bg-[#DBAC42]  h-[60%] md:h-auto lg:h-[90%] flex items-center justify-center  p-4 rounded-full text-white text-xl">
                     <Image src={icon2} alt="Icon" className="w-8 h-8 md:w-6 md:h-6" />
             </div>
             <div>
@@ -60,7 +60,7 @@ const Section5 = () => {
 
           {/* Item 3 */}
           <div className="flex items-start gap-4">
-            <div className="bg-[#DBAC42]  h-[60%] md:h-auto flex items-center justify-center  p-4 rounded-full text-white text-xl">
+            <div className="bg-[#DBAC42]  h-[60%] md:h-auto lg:h-[90%]  flex items-center justify-center  p-4 rounded-full text-white text-xl">
               <Image src={icon3} alt="Icon" className="w-8 h-8 md:w-6 md:h-6" />
             </div>
             <div>

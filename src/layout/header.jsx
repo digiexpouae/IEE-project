@@ -36,15 +36,15 @@ const Header = () => {
   return (
     <header className={`fixed w-full z-50 transition-all flex flex-col items-center justify-center duration-300 ${isScrolled ? 'bg-[#A81F19] shadow-md' : 'bg-[#A81F19]'}`}>
       {/* Top Bar */}
-      <div className="hidden mb-6  lg:flex items-center justify-between px-4 py-2  bg-[#A81F19] w-[80%] text-white text-sm">
+      <div className="hidden mb-7  lg:flex items-center justify-between px-4 py-2  bg-[#A81F19] w-[80%] text-white text-sm">
         <div className="flex items-center space-x-4">
         <div className="flex items-center space-x-2">
             <Image src={email} width={16} height={16} alt="Email" />
-            <span>contact@yourname.com</span>
+            <p className='text-xs'>contact@yourname.com</p>
           </div>
           <div className="flex items-center space-x-2">
             <Image src={location} width={16} height={16} alt="Location" />
-            <span>Dublin, Ireland</span>
+            <p className='text-xs'>Dublin, Ireland</p>
           </div>
   
         </div>
